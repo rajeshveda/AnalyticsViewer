@@ -1,0 +1,30 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Tab 2
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Upload</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <!-- <app-explore-container name="Tab 2 page"></app-explore-container> -->
+  <ion-grid>
+    <ion-row>
+      Please click here to upload the file
+    </ion-row>
+    <ion-row>
+      <input type="file" id="fileUpload" [(ngModel)]="filename">
+      <button>
+        <ion-button block full (click)="startUpload($event)">
+          Upload
+        </ion-button>
+      </button>
+    </ion-row>
+  </ion-grid>
+</ion-content>

@@ -1,0 +1,4 @@
+#Tue Feb 18 11:56:20 EST 2020
+base.0=/Users/rajeshna/Documents/Roar/tabs/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
